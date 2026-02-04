@@ -25,3 +25,7 @@ document.getElementById('submitNameBtn').addEventListener('click', function() {
         alert('Wrong name! Try again.');
     }
 });
+document.getElementById("yesBtn").addEventListener("click", function () {
+    const music = document.getElementById("bgMusic");
+    music.play();
+});
