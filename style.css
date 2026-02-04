@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000000, #006400); /* Black to green gradient */
+    color: rgb(248, 248, 250);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("ChatGPT Image Feb 4, 2026, 09_08_28 PM.png"); /* Placeholder for roses background */
+    background-size: cover;
+}
+
+audio {
+    display:"audio/mpeg"; /* Hide the audio controls */
+}
+
+#entry, #nameEntry {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup img {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.album {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    gap: 15px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.album img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.album img:hover {
+    transform: scale(3.4*5);
+    transition: 0.3s;
+    box-shadow: 0 0 20px pink;
+}
