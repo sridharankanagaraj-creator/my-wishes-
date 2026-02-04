@@ -29,3 +29,12 @@ document.getElementById("yesBtn").addEventListener("click", function () {
     const music = document.getElementById("bgMusic");
     music.play();
 });
+document.getElementById("NextBtn").addEventListener("click", function () {
+    const music = document.getElementById("bgMusic");
+    music.play();
+});
+document.getElementById("NextBtn").addEventListener("click", function () {
+    const music = document.getElementById("bgMusic");
+    music.play();
+});
+
